@@ -85,7 +85,7 @@ int main()
 
 	PlatformerCharacter character(myWorld);
 
-	std::list<Platform> platforms =
+	std::vector<Platform> platforms =
 	{
 		Platform(myWorld),
 		Platform(myWorld, sf::Vector2f(400.f,0.f)),
